@@ -16,4 +16,4 @@ Bref, après chaque course, de nouvelles idées, de nouveaux défis.
 
 Et puis parfois, sur une discussion innocente, on se motive à tenter des trucs plus fous... 
 
-Bref, le programme, c'est [par là](/programme) (lien aussi disponible dans la colonne de gauche).
+Bref, le programme, c'est [par là]({filename}/pages/programme.md) (lien aussi disponible dans la colonne de gauche).
