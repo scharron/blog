@@ -1,4 +1,4 @@
-Title: Programme 2016-2017
+Title: Programme 2017
 Tags: Sport, Programme
 Category: Sport
 Slug: programme-2016-2017
