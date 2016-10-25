@@ -1,0 +1,189 @@
+img.responsive {
+  max-width: 100%;
+  height: auto;
+}
+.row-equal-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+body {
+  background-image: url(http://localhost:8000/theme/images/texture.png);
+}
+body h1,
+body h2,
+body nav > ul > li {
+  font-family: 'Economica', sans-serif !important;
+  font-weight: bold;
+}
+body div.container div.row {
+  padding-top: 32px;
+}
+body div.container div.row aside header {
+  background: #343434;
+  padding: 32px;
+  text-align: center;
+}
+body div.container div.row aside header a {
+  text-decoration: none;
+}
+body div.container div.row aside header .run {
+  color: #fa6900;
+}
+body div.container div.row aside header h1 {
+  color: white;
+}
+body div.container div.row aside header h2 {
+  color: white;
+  font-size: 150%;
+}
+body div.container div.row aside nav {
+  margin-top: 32px;
+  background: #343434;
+  padding: 32px;
+}
+body div.container div.row aside nav h2 {
+  color: #fa6900;
+  margin-top: 0;
+  font-weight: bolder;
+}
+body div.container div.row aside nav ul {
+  padding-left: 0;
+}
+body div.container div.row aside nav ul li a {
+  color: white;
+  font-size: 130%;
+  font-weight: normal;
+}
+body div.container div.row aside nav ul.categories li {
+  border: 1px solid white;
+  display: inline;
+  padding: 4px;
+}
+body div.container div.row aside nav ul.categories li:hover {
+  border: 1px solid #fa6900;
+}
+body div.container div.row aside nav ul.categories li.active {
+  border: 1px solid #fa6900;
+}
+body div.container div.row aside nav ul:last-of-type {
+  border: 0;
+}
+body div.container div.row aside nav ul::after {
+  display: block;
+  content: " ";
+  color: white;
+  text-align: center;
+  border-bottom: 1px solid white;
+  padding-top: 32px;
+}
+body div.container div.row aside nav ul:last-of-type:after {
+  display: none;
+}
+body div.container div.row div.content {
+  padding-left: 32px;
+}
+body div.container div.row div.content div.inner {
+  background-color: white;
+  padding: 32px;
+  border: 1px solid #343434;
+}
+body div.container div.row div.content div.inner article header {
+  padding-bottom: 24px;
+}
+body div.container div.row div.content div.inner article header time {
+  float: right;
+}
+body div.container div.row div.content div.inner article h1,
+body div.container div.row div.content div.inner article h2 {
+  display: inline-block;
+  margin: 0;
+  color: #343434;
+  font-weight: bolder;
+}
+body div.container div.row div.content div.inner article .article-image {
+  float: left;
+  max-width: 120px;
+  margin: 8px;
+}
+body div.container div.row div.content div.inner article a {
+  color: inherit;
+  text-decoration: underline;
+}
+body div.container div.row div.content div.inner #disqus_thread {
+  margin-top: 50px;
+  border-top: 1px solid #343434;
+  padding-top: 20px;
+}
+body div.container div.row div.content div.inner section.articles ol.articles-list {
+  width: 100%;
+  list-style: none;
+  padding: 0;
+}
+body div.container div.row div.content div.inner section.articles ol.articles-list > li {
+  width: 100%;
+  display: inline-block;
+  padding-bottom: 24px;
+}
+body div.container div.row div.content div.inner section.articles ol.articles-list > li .article-image {
+  float: left;
+  max-width: 120px;
+  margin: 8px;
+}
+body div.container div.row div.content div.inner section.articles ol.articles-list > li .suite {
+  color: #fa6900;
+  text-decoration: none;
+  font-weight: bold;
+}
+body div.container div.row div.content div.inner section.articles ol.articles-list > li .suite:before {
+  content: "[";
+}
+body div.container div.row div.content div.inner section.articles ol.articles-list > li .suite:after {
+  content: "]";
+}
+.programme .evenements {
+  border-left: 8px solid #fa6900;
+  padding: 0;
+  margin: 0;
+}
+.programme .evenements li {
+  font-size: 150%;
+  list-style: none;
+  padding: 0;
+  margin: 0 0 20px 0;
+}
+.programme .evenements li.year {
+  background-color: #fa6900;
+  color: #343434;
+  font-weight: bolder;
+  padding: 0 0 0 10px;
+  margin-bottom: 20px;
+  margin-left: -12px;
+  height: 30px;
+}
+.programme .evenements li.evenement {
+  margin-left: 12px;
+  width: 66%;
+  position: relative;
+}
+.programme .evenements li.evenement:before {
+  content: '';
+  position: absolute;
+  left: -15px;
+  top: 0;
+  width: 0;
+  height: 0;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-right: 15px solid #343434;
+}
+.programme .evenements li.evenement .date {
+  display: block;
+  background-color: #343434;
+  color: white;
+  height: 30px;
+}
+.programme .evenements li.evenement .nom {
+  display: block;
+}
