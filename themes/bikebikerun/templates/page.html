@@ -22,7 +22,7 @@
     <time class="publication-date" datetime="{{ page.date.isoformat() }}" pubdate>{{ page.locale_date }}</time>
   </header>
 
-  {% if article.square %}
+  {% if page.square %}
   <img class="article-image" src="{{page.square}}" alt="{{page.title}}">
   {% endif %}
 
