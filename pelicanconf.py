@@ -33,6 +33,7 @@ DEFAULT_PAGINATION = 10
 
 PLUGINS = [
     "plugins.filetime_from_git",
+    "plugins.summary",
 ]
 
 DEFAULT_DATE = 'fs'

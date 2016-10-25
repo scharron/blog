@@ -1,10 +1,8 @@
 Title: Programme 2017
 Tags: Sport, Programme
 Category: Sport
-Slug: programme-2016-2017
+Slug: programme
 Status: published
-Square: 
-summary: Programme d'entrainement 2016-2017
 
 <div class="programme">
     <ul class="evenements">
@@ -31,8 +29,22 @@ summary: Programme d'entrainement 2016-2017
             <span class="nom"><a href="http://www.garmintriathlondeparis.fr/">Triathlon de Paris</a></span>
         </li>
         <li class="evenement">
-            <span class="date tri">Septembre 2017</span>
+            <span class="date tri">Août</span>
+            <span class="nom">Entraînement vélo à la montagne</span>
+        </li>
+        <li class="evenement">
+            <span class="date tri">Septembre</span>
             <span class="nom"><a href="http://evergreen-endurance.com/">Half-Ironman Evergreen Challenge</a></span>
+        </li>
+        <li class="year">2018</li>
+        <li class="evenement">
+            <span class="date tri">???</span>
+            <span class="nom">Un Ironman</span>
+        </li>
+        <li class="year">2019</li>
+        <li class="evenement">
+            <span class="date tri">Août</span>
+            <span class="nom"><a href="https://www.paris-brest-paris.org/">Paris-Brest-Paris</a></span>
         </li>
     </ul>
 </div>

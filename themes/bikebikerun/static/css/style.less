@@ -162,6 +162,18 @@ body {
                                     max-width: 120px;
                                     margin: 8px;
                                 }
+
+                                .suite {
+                                    &:before {
+                                        content: "[";
+                                    }
+                                    &:after {
+                                        content: "]";
+                                    }
+                                    color: @orange;
+                                    text-decoration: none;
+                                    font-weight: bold;
+                                }
                             }
                         }
                     }
@@ -198,7 +210,7 @@ body {
 
             &.evenement {
                 margin-left: 12px;
-                width: 50%;
+                width: 66%;
                 position: relative;
 
                 &:before {
