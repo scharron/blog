@@ -1,0 +1,233 @@
+img.responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+// http://getbootstrap.com.vn/examples/equal-height-columns/
+.row-equal-height {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display:         flex;
+}
+
+@dark: #343434;
+
+@full-width: 1200px;
+@sidebar-width: 300px;
+@separation: 24px;
+@padding: 36px;
+@orange: #fa6900;
+@white: #fff;
+
+
+body {
+    background-image: url(http://localhost:8000/theme/images/texture.png);
+    h1, h2, nav > ul > li {
+        font-family: 'Economica', sans-serif !important;
+        font-weight: bold;
+    }
+
+    div.container {
+        div.row {
+            padding-top: 32px;
+
+            aside {
+                header {
+                    a {
+                        text-decoration: none;
+                    }
+
+                    background: @dark;
+                    padding: 32px;
+                    text-align: center;
+                    img.logo {
+                    }
+
+                    .run {
+                        color: @orange;
+                    }
+
+                    h1 {
+                        color: white;
+                    }
+                    h2 {
+                        color: white;
+                        font-size: 150%;
+                    }
+
+                }
+
+                nav {
+                    margin-top: 32px;
+                    background: @dark;
+                    padding: 32px;
+                    h2 {
+                        color: @orange;
+                        margin-top: 0;
+                        font-weight: bolder;
+                    }
+                    ul {
+                        padding-left: 0;
+                        li {
+                            a {
+                                color: white;
+                                font-size: 130%;
+                                font-weight: normal;
+                            }
+                        }
+                    }
+                    ul.categories {
+                        li {
+                            border: 1px solid white;
+                            display: inline;
+                            padding: 4px;
+                            &:hover {
+                                border: 1px solid @orange;
+                            }
+                            &.active {
+                                border: 1px solid @orange;
+                            }
+                        }
+                    }
+                    ul:last-of-type{
+                        border: 0;
+                    }
+                    ul::after  {
+                        display: block;
+                        content: " ";
+                        color: white;
+                        text-align: center;
+                        border-bottom: 1px solid white;
+                        padding-top: 32px;
+                    }
+                    ul:last-of-type:after {
+                        display: none;
+                    }
+                }
+            }
+
+            div.content {
+                padding-left: 32px;
+                div.inner {
+                    background-color: white;
+                    padding: 32px;
+                    border: 1px solid @dark;
+
+                    /* un article */
+
+                    article {
+                        header {
+                            padding-bottom: 24px;
+                            time {
+                                float: right;
+                            }
+                        }
+
+                        h1, h2 {
+                            display: inline-block;
+                            margin: 0;
+                                color: @dark;
+                                font-weight: bolder;
+                            a {
+                            }
+                        }
+
+                        .article-image {
+                            float: left;
+                            max-width: 120px;
+                            margin: 8px;
+                        }
+
+                        a {
+                            color: inherit;
+                            text-decoration: underline;
+                        }
+                    }
+
+                    /* la liste des articles */
+                    
+                    section.articles {
+                        ol.articles-list {
+                            width: 100%;
+                            list-style: none;
+                            padding: 0;
+                            & > li {
+                                width: 100%;
+                                display: inline-block;
+                                padding-bottom: 24px;
+
+                                .article-image {
+                                    float: left;
+                                    max-width: 120px;
+                                    margin: 8px;
+                                }
+                            }
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+}
+
+
+.programme {
+    .evenements {
+        border-left: 8px solid @orange;
+        padding: 0;
+        margin: 0;
+
+        li {
+            font-size: 150%;
+            list-style: none;
+            padding: 0;
+            margin: 0 0 20px 0;
+
+
+            &.year {
+                background-color: @orange;
+                color: @dark;
+                font-weight: bolder;
+                padding: 0 0 0 10px;
+                margin-bottom: 20px;
+                margin-left: -12px;
+                height: 30px;
+            }
+
+            &.evenement {
+                margin-left: 12px;
+                width: 50%;
+                position: relative;
+
+                &:before {
+                    content: '';
+                    position: absolute;
+                    left: -15px;
+                    top: 0;
+                    width: 0;
+                    height: 0;
+                    border-top: 15px solid transparent;
+                    border-bottom: 15px solid transparent;
+                    border-right: 15px solid @dark;
+                }
+
+                .date {
+                    display: block;
+                    background-color: @dark;
+                    color: white;
+                    height: 30px;
+                }
+
+                .nom{
+                    display: block;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 992px) {
+}
+

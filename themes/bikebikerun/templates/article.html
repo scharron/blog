@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% block head %}
+  {{ super() }}
+  {% for keyword in article.keywords %}
+    <meta name="keywords" content="{{keyword}}" />
+  {% endfor %}
+
+  {% for description in article.description %}
+    <meta name="description" content="{{description}}" />
+  {% endfor %}
+
+  {% for tag in article.tags %}
+    <meta name="tags" content="{{tag}}" />
+  {% endfor %}
+
+{% endblock %}
+{% block title %}{{ article.title }}{%endblock%}
+{% block content %}
+<article>
+  <header>
+    <h1>{{ article.title }}</h1>
+    <time class="publication-date" datetime="{{ article.date.isoformat() }}" pubdate>{{ article.locale_date }}</time>
+  </header>
+
+  {% if article.square %}
+  <img class="article-image" src="{{article.square}}" alt="{{article.title}}">
+  {% endif %}
+
+  {{ article.content }}
+</article>
+{% endblock %}
