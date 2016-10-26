@@ -2,14 +2,8 @@ img.responsive {
   max-width: 100%;
   height: auto;
 }
-.row-equal-height {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
 body {
-  background-image: url(http://localhost:8000/theme/images/texture.png);
+  background-image: url(/theme/images/texture.png);
 }
 body h1,
 body h2,
@@ -38,10 +32,40 @@ body div.container div.row aside header h2 {
   color: white;
   font-size: 150%;
 }
+@media (max-width:970px) {
+  body div.container div.row aside header {
+    padding: 4px;
+    position: relative;
+    text-align: right;
+  }
+  body div.container div.row aside header h1,
+  body div.container div.row aside header h2 {
+    margin: 0;
+    display: block;
+    clear: right;
+  }
+  body div.container div.row aside header img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 70px;
+    padding: 4px;
+  }
+}
+@media (max-width:500px) {
+  body div.container div.row aside header {
+    text-align: center;
+  }
+  body div.container div.row aside header img {
+    display: none;
+  }
+}
 body div.container div.row aside nav {
   margin-top: 32px;
   background: #343434;
   padding: 32px;
+  margin-left: 0;
+  margin-right: 0;
 }
 body div.container div.row aside nav h2 {
   color: #fa6900;
@@ -49,6 +73,7 @@ body div.container div.row aside nav h2 {
   font-weight: bolder;
 }
 body div.container div.row aside nav ul {
+  list-style: none;
   padding-left: 0;
 }
 body div.container div.row aside nav ul li a {
@@ -81,6 +106,20 @@ body div.container div.row aside nav ul::after {
 body div.container div.row aside nav ul:last-of-type:after {
   display: none;
 }
+@media (max-width:970px) {
+  body div.container div.row aside nav {
+    padding: 4px;
+    margin-top: 4px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  body div.container div.row aside nav h2 {
+    font-size: 120%;
+  }
+  body div.container div.row aside nav ul > li > a {
+    font-size: 100%;
+  }
+}
 body div.container div.row div.content {
   padding-left: 32px;
 }
@@ -97,13 +136,20 @@ body div.container div.row div.content div.inner article header time {
 }
 body div.container div.row div.content div.inner article h1,
 body div.container div.row div.content div.inner article h2 {
-  display: inline-block;
+  display: block;
   margin: 0;
+  padding-top: 12px;
+  padding-bottom: 8px;
   color: #343434;
   font-weight: bolder;
+  clear: both;
+}
+body div.container div.row div.content div.inner article ul,
+body div.container div.row div.content div.inner article ol {
+  padding-left: 20px;
 }
 body div.container div.row div.content div.inner article .article-image {
-  float: left;
+  float: right;
   max-width: 120px;
   margin: 8px;
 }
@@ -141,6 +187,20 @@ body div.container div.row div.content div.inner section.articles ol.articles-li
 }
 body div.container div.row div.content div.inner section.articles ol.articles-list > li .suite:after {
   content: "]";
+}
+@media (max-width:970px) {
+  body div.container div.row div.content {
+    padding-top: 4px;
+    padding-left: 15px;
+  }
+  body div.container div.row div.content div.inner {
+    padding: 8px;
+  }
+}
+@media (max-width:970px) {
+  body div.container div.row {
+    padding-top: 4px;
+  }
 }
 .programme .evenements {
   border-left: 8px solid #fa6900;

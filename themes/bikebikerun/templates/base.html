@@ -20,46 +20,49 @@
     {% endblock head %}
 
     <title>Bike Bike Run — {% block title %}{% endblock %}</title>
-
-	{# {% include "modules/analytics.html" %} #}
   </head>
 
   <body> 
 	<div class="container">
 	  <div class="row row-equal-height">
-
-		<aside class="col-md-3">
+		<aside class="col-md-3 col-sm-12">
 		  <header class="body">
             <a href="{{ SITEURL }}/"><h1>Bike Bike <span class="run">Run</span></h1></a>
             <a href="{{ SITEURL }}/"><img class="logo responsive" src="{{ SITEURL }}/theme/images/logo-blanc.png" alt="logo"> </a>
             <a href="{{ SITEURL }}/"><h2>Défis fous & <span class="run">stupides</span></h2></a>
 		  </header>
 
-		  <nav>
+		  <nav class="row">
             {% if PAGES %}
+            <div class="col-md-12 col-xs-4">
             <h2>Liens rapides</h2>
 			<ul>
 			  {% for p in PAGES %}
 			  <li{% if p == page %} class="active"{% endif %}><a href="{{ SITEURL }}/{{ p.url }}">{{ p.title }}</a></li>
 			  {% endfor %}
 			</ul>
+            </div>
             {% endif %}
+            <div class="col-md-12 col-xs-4">
             <h2>Catégories</h2>
             <ul class="categories">
 			  {% for cat, null in categories %}
 			  <li{% if cat == category %} class="active"{% endif %}><a href="{{ SITEURL }}/{{ cat.url }}">{{ cat }}</a></li>
 			  {% endfor %}
             </ul>
+            </div>
+            <div class="col-md-12 col-xs-4">
             <h2>Les z'amis</h2>
 			<ul>
 			  {% for title, link in LINKS %}
 			  <li><a href="{{ link }}">{{ title }}</a></li>
 			  {% endfor %}
 			</ul>
+            </div>
 		  </nav>
 		</aside>
 
-		<div class="content col-lg-9">
+		<div class="content col-sm-12 col-md-9">
 	      <div class="inner">
 		  {% block content %}
 		  {% endblock %}

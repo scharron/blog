@@ -4,17 +4,17 @@ img.responsive {
 }
 
 // http://getbootstrap.com.vn/examples/equal-height-columns/
+/*
 .row-equal-height {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
     display:         flex;
 }
+*/
 
 @dark: #343434;
 
-@full-width: 1200px;
-@sidebar-width: 300px;
 @separation: 24px;
 @padding: 36px;
 @orange: #fa6900;
@@ -22,7 +22,7 @@ img.responsive {
 
 
 body {
-    background-image: url(http://localhost:8000/theme/images/texture.png);
+    background-image: url(/theme/images/texture.png);
     h1, h2, nav > ul > li {
         font-family: 'Economica', sans-serif !important;
         font-weight: bold;
@@ -58,16 +58,50 @@ body {
 
                 }
 
+                @media (max-width: 970px) {
+                    header {
+                        padding: 4px;
+                        position: relative;
+                        text-align: right;
+
+                        h1, h2 { 
+                            margin: 0;
+                            display: block;
+                            clear: right;
+                        }
+                        img { 
+                            position: absolute;
+                            left: 0;
+                            top: 0;
+                            height: 70px;
+                            padding: 4px;
+                        }
+                    }
+                }
+                @media (max-width: 500px) {
+                    header {
+                        text-align: center;
+                        img {
+                            display: none;
+                        }
+                    }
+                }
+
                 nav {
                     margin-top: 32px;
                     background: @dark;
                     padding: 32px;
+
+                    margin-left: 0;
+                    margin-right: 0;
+
                     h2 {
                         color: @orange;
                         margin-top: 0;
                         font-weight: bolder;
                     }
                     ul {
+                        list-style: none;
                         padding-left: 0;
                         li {
                             a {
@@ -105,6 +139,21 @@ body {
                         display: none;
                     }
                 }
+
+                @media (max-width: 970px) {
+                    nav {
+                        padding: 4px;
+                        margin-top: 4px;
+                        margin-left: 0;
+                        margin-right: 0;
+                        h2 {
+                            font-size: 120%;
+                        }
+                        ul > li > a {
+                            font-size: 100%;
+                        }
+                    }
+                }
             }
 
             div.content {
@@ -125,16 +174,23 @@ body {
                         }
 
                         h1, h2 {
-                            display: inline-block;
+                            display: block;
                             margin: 0;
-                                color: @dark;
-                                font-weight: bolder;
+                            padding-top: 12px;
+                            padding-bottom: 8px;
+                            color: @dark;
+                            font-weight: bolder;
                             a {
                             }
+                            clear: both;
+                        }
+
+                        ul, ol {
+                            padding-left: 20px;
                         }
 
                         .article-image {
-                            float: left;
+                            float: right;
                             max-width: 120px;
                             margin: 8px;
                         }
@@ -185,6 +241,21 @@ body {
                     }
 
                 }
+            }
+            @media (max-width: 970px) {
+                div.content {
+                    padding-top: 4px;
+                    padding-left: 15px;
+                    div.inner {
+                        padding: 8px;
+                    }
+                }
+            }
+
+        }
+        @media (max-width: 970px) {
+            div.row {
+                padding-top: 4px;
             }
         }
     }
@@ -244,8 +315,5 @@ body {
             }
         }
     }
-}
-
-@media (min-width: 992px) {
 }
 
