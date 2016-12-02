@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr" prefix="og: http://ogp.me/ns#">
   <head>
     <!--
     <link rel="stylesheet/less" type="text/css" href="/theme/css/style.less">
@@ -20,6 +20,9 @@
     {% endblock head %}
 
     <title>Bike Bike Run — {% block title %}{% endblock %}</title>
+    <meta property="og:title" content="{% block ogtitle %}{% endblock %}" />
+    <meta property="og:image" content="{% block img %}{% endblock %}" />
+    <meta property=”og:description” content="{% block summary %}{% endblock %}" />
   </head>
 
   <body> 

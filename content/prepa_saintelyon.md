@@ -5,7 +5,7 @@ Slug: prepa-saintelyon
 Status: published
 Square: https://scontent-cdg2-1.cdninstagram.com/t51.2885-15/e35/14128633_1810803652511679_2602021973965930496_n.jpg?ig_cache_key=MTM3NzUxODE3NTA5Mjk1MzI0Nw%3D%3D.2
 
-Ca y est, la SaintéLyon n'a jamais été aussi proche. Un peu plus de 36h avant le départ. Et ca semble jouable. 
+Ca y est, la SaintéLyon n'a jamais été aussi proche. Un peu plus de 36h avant le départ. Un peu moins de 48h avant l'arrivée. Et ca semble totalement jouable !
 
 <!-- PELICAN_END_SUMMARY -->
 
@@ -20,7 +20,7 @@ Pourquoi ?
 Entraînements
 -------------
 
-L'objectif suivant de la saison étant le triathlon de Paris, le 27 mai, j'oublie rapidement cette histoire de SaintéLyon. Et puis en avril on se décide avec Rémi pour faire le GR20, donc 3 semaines de rando sans entraîntement de course à pied. Les semaines suivantes, reprise d'un entraînement classique, en visant le triathlon. Rythme rapide pour du 10km; sorties vélo le week-end, et un peu de natation.
+L'objectif suivant de la saison étant le triathlon de Paris, le 27 mai, j'oublie rapidement cette histoire de SaintéLyon. Et puis en avril on se décide avec Rémi pour faire le GR20, donc 3 semaines de rando sans entraînement de course à pied. Les semaines suivantes, reprise d'un entraînement classique, en visant le triathlon. Rythme rapide pour du 10km; sorties vélo le week-end, et un peu de natation.
 Le triathlon se passe bien. 
 
 Fin mai, après le triathlon, vu que c'était vraiment génial, avec Rémi et Élise on se réinscrit à un triathlon fin août, celui de Chantilly. Donc on reste sur le même genre d'entraînement mais Thomas nous propose quand même des séances plus adaptées aux objectifs longs.
@@ -69,6 +69,7 @@ Au début, pas de problème pour ajouter les séances du mardi et du jeudi. Quel
 Et comme maintenant je suis réinscrit au PUC comme triathlète et plus simplement coureur à pied, vélo et nat' le week-end. 
 C'est bon pour le corps, ca permet de compléter la préparation en faisant autre chose que de la course à pied. Mais on a aussi une séance de natation le mardi. Et j'en ai un cours de nat' en plus le jeudi. Du coup au début, un peu difficile de concilier la natation avec les séances de prépa trail. Puis le corps s'habitue à ces nouvelles séances, et j'ai pu réintroduire progressivement ces séances, surtout en novembre.
 
+![Trail 36k avec Béa](https://scontent-cdg2-1.cdninstagram.com/t51.2885-15/e35/14716628_1200423380013978_98535796834828288_n.jpg?ig_cache_key=MTM3MjQ2NjE4MzUzODU2ODk5OA%3D%3D.2){.article-image .double}
 Le week-end, nous avions aussi comme objectif de faire des sorties trail, de plus en plus longues. 2h au début. 5h à la fin. Heureusement, si nous ne sommes que 3 d'inscrits pour la grande distance de la SaintéLyon, d'autres amis du club font eux aussi du trail en cette fin d'année. C'est ainsi que l'on s'est retrouvé à faire un groupe d'une bonne demi-douzaine de personnes à aller courir le week-end selon les disponibilités de chacun.
 Nous avons donc passés nos week-ends à [la station de trail de Bures-sur-Yvette](http://www.stationdetrail.fr/fr/station/bures-sur-yvette-vallée-de-chevreuse). Là-bas, 7 chemins balisés, de 8 à 32km de distance. Et avec du dénivelé. Du trail quoi. Ma sortie la plus longue ? 36km, 1000 D+. La moitié de la Sainté.
 
@@ -108,6 +109,7 @@ Au début, j'ai testé le sac de trail décathlon. Bien pour le prix, mais plusi
 Mes chaussures de trail montrant des signes de faiblesses, j'ai voulu recommander les mêmes. Mais taille non disponible. 
 Sur recommandation de Tim, j'ai voulu m'acheté une veste Salomon. Mais trop tard, plus de stock disponible. 
 
+![matos SaintéLyon]({filename}/images/matos_saintelyon.jpg){.article-image .double}
 Je partirai donc avec : 
 
 * Une 1ère couche Gore. Coupe-vent devant, respirante dans le dos.
