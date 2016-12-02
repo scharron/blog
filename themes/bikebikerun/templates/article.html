@@ -47,4 +47,16 @@ var disqus_config = function () {
     (d.head || d.body).appendChild(s);
 })();
 </script>
+<script>
+images = document.getElementsByClassName('article-image')
+for (var i = 0; i < images.length; ++i) {
+	var img = images[i];
+	console.log(img);
+	var link = document.createElement("a");
+	link.href = img.src;
+	link.target =  "_blank";
+	img.parentNode.insertBefore(link, img);
+	link.appendChild(img);
+}
+</script>
 {% endblock %}
