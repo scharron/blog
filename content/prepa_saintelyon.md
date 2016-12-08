@@ -1,5 +1,5 @@
 Title: Prépa SaintéLyon
-Tags: Sport, PUC
+Tags: Sport, PUC, Trail
 Category: Sport
 Slug: prepa-saintelyon
 Status: published
