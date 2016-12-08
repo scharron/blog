@@ -21,8 +21,8 @@ Status: published
             <span class="nom"><a href="http://lacanau-tri-events.com/">Half-Ironman de Lacanau</a></span>
         </li>
         <li class="evenement">
-            <span class="date velo">9-14 Juin</span>
-            <span class="nom"><a href="http://chilkoot-cdp.com/project/btr2017/">Born To Ride</a></span>
+            <span class="date velo">Juin</span>
+            <span class="nom">Entraînement triathlon au pays basque</span>
         </li>
         <li class="evenement">
             <span class="date tri">2 Juillet</span>
@@ -31,6 +31,10 @@ Status: published
         <li class="evenement">
             <span class="date tri">Août</span>
             <span class="nom">Entraînement vélo à la montagne</span>
+        </li>
+        <li class="evenement">
+            <span class="date tri">27 Août</span>
+            <span class="nom"><a href="http://www.castletriathlonseries.co.uk/les-etapes/chateau-de-chantilly/">Half-Ironman de Chantilly</a></span>
         </li>
         <li class="evenement">
             <span class="date tri">Septembre</span>
