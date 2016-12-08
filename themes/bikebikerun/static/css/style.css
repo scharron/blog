@@ -148,14 +148,16 @@ body div.container div.row div.content div.inner article ul,
 body div.container div.row div.content div.inner article ol {
   padding-left: 20px;
 }
-body div.container div.row div.content div.inner article .article-image {
+body div.container div.row div.content div.inner article img {
   float: right;
-  max-width: 120px;
+  max-width: 200px;
   margin: 8px;
+  clear: both;
 }
-body div.container div.row div.content div.inner article .article-image.double {
-  float: right;
-  max-width: 240px;
+body div.container div.row div.content div.inner article img.fullwidth {
+  float: none;
+  width: 100%;
+  max-width: 100%;
   margin: 8px;
 }
 body div.container div.row div.content div.inner article a {

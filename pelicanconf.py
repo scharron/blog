@@ -20,6 +20,7 @@ AUTHOR_FEED_RSS = None
 LINKS = (('Thank God I Run', 'http://thankgodirun.com/'),
          ('Runner Mais Pas Que', 'http://runnermaispasque.com/'),
          ('Triathlon For Fun', 'https://triathlonforfun.com'),
+         ('Casquette Verte', 'https://casquetteverteblog.wordpress.com/'),
          #('City Run', 'http://city-run.fr/'),
          )
 
