@@ -1,6 +1,6 @@
 Title: Les Pim's maison
-Tags: Recette
-Category: Recette
+Tags: Recette, Miam
+Category: Cuisine
 Slug: les-pims-maison
 Status: published
 Square: https://scontent-cdg2-1.cdninstagram.com/t51.2885-15/e15/11262906_1436489719988361_2051121312_n.jpg?ig_cache_key=OTg0NTYzNzY3NzQ0NzI3NTM0.2
