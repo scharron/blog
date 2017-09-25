@@ -3,7 +3,7 @@ Tags: Sport, Intro,
 Category: Sport
 Slug: bienvenue-sur-bike-bike-run
 Status: published
-Square: https://scontent-cdg2-1.xx.fbcdn.net/t31.0-8/13987427_10206524488380479_2223121227340323547_o.jpg
+Square: images/chaussures_de_trail.jpg
 
 
 Pour ceux ne me connaissant pas, je suis Sam, la trentaine, Parisien d'adoption.

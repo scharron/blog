@@ -99,4 +99,7 @@ publish:
 ssh: publish
 	scp -P $(SSH_PORT) -r $(OUTPUTDIR)/* $(SSH_USER)@$(SSH_HOST):$(SSH_TARGET_DIR)
 
-.PHONY: html help clean regenerate serve serve-global devserver publish ssh
+rsync: publish
+	rsync -e "ssh -p $(SSH_PORT)" -P -rvzc --delete $(OUTPUTDIR)/ $(SSH_USER)@$(SSH_HOST):$(SSH_TARGET_DIR) --cvs-exclude
+
+.PHONY: html help clean regenerate serve serve-global devserver publish ssh rsync

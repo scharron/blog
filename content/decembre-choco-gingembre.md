@@ -3,7 +3,7 @@ Tags: Recette, Miam
 Category: Cuisine
 Slug: decembre-choco-gingembre
 Status: published
-Square: images/chocolat_chaud.jpg
+Square: /images/chocolat_chaud.jpg
 
 Ahhh décembre... Après une bonne séance dans le froid, rien de tel qu'une bonne douche chaude. Et qu'un bon chocolat chaud au gingembre. Avec une bonne part de gâteau chocolat gingembre. Et tant pis si vous n'aimez pas le gingembre. Perso, j'adore !
 

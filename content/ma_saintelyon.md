@@ -78,7 +78,7 @@ On continue d'avancer, et finalement le ravitaillement. Je me rends compte que l
 
 Je commence à regarder ma montre trop souvent. 5h10. Cela fait 5h que je cours. Les jambes commencent à être douloureuses. Les crampes qui ne se déclenchaient avant que sur des surfaces accidentées commencent à survenir sur des surfaces quasi-planes. J'ai fait plus de la moitié. J'ai fait plus de la moitié du dénivelé. Tim continue à me donner des indications sur la topographie des prochains kilomètres. Ça ne permet pas de gérer les efforts, mais ça permet d'être moins surpris. En théorie. Car régulièrement on tombe sur une butte qu'il avait oublié. Et finalement ça en devient plus agréable puisqu'on oublie l'obstacle actuel pour se focaliser sur le prochain qui a été décrit. 
 
-![](http://www.saintelyon.com/wp-content/uploads/2016/12/2016-Gilles-Reboisson-0945-960x640.jpg){.fullwidth}
+![la sainté](http://www.saintelyon.com/wp-content/uploads/2016/12/2016-Gilles-Reboisson-0945-960x640.jpg){.fullwidth}
 
 La fatigue se faisant maintenant cruellement sentir, le cerveau se déconnecte maintenant à une vitesse hallucinante. Les muscles bougent tout seuls, les yeux transmettent leurs informations sans que l'on prenne vraiment conscience de ce qu'ils ont aperçu. J'attends les montées avec impatience pour pouvoir marcher. Et les descentes pour détendre les muscles fatigués de la montée. Et les zones plus roulantes, dans l'espoir d'y trouver une route plane, où les crampes ne se déclencheront plus. Il m'a fallu une petite pause d'une minute pour calmer une crampe autour de la cheville gauche qui ne voulait pas s'arrêter, j'essaye donc maintenant de limiter les mouvements de chevilles au maximum.
 

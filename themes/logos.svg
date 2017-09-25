@@ -27,16 +27,16 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.979899"
-     inkscape:cx="-63.835254"
-     inkscape:cy="145.36935"
+     inkscape:cx="-328.24268"
+     inkscape:cy="339.31864"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
      units="px"
-     inkscape:window-width="1920"
-     inkscape:window-height="1151"
-     inkscape:window-x="0"
-     inkscape:window-y="27"
+     inkscape:window-width="1855"
+     inkscape:window-height="1056"
+     inkscape:window-x="65"
+     inkscape:window-y="24"
      inkscape:window-maximized="1">
     <inkscape:grid
        type="xygrid"
@@ -558,6 +558,15 @@
          id="path5651"
          inkscape:connector-curvature="0" />
     </g>
+    <rect
+       style="opacity:0.87999998;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect3448"
+       width="199"
+       height="199"
+       x="-383.60248"
+       y="626.96466"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <g
        id="g5674"
        transform="matrix(0.70710678,0.70710679,-0.70710679,0.70710678,556.3245,260.99136)"
@@ -599,5 +608,29 @@
          d="m -60,844.36216 0,16 16,0 0,-16 -16,0 z m 24,8 0,16 -8,0 -8,0 0,24 8,0 0,-16 16,0 0,-8 0,-16 -8,0 z m 0,32 0,8 16,0 0,16 8,0 0,-16 0,-8 -24,0 z m 0,16 0,24 8,0 0,-24 -8,0 z"
          style="fill:#fa6900;fill-opacity:1;stroke:none;stroke-opacity:1" />
     </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:70.52774811px;line-height:82.99999833%;font-family:Economica;-inkscape-font-specification:Economica;letter-spacing:0px;word-spacing:0px;opacity:0.87999998;fill:#fa6900;fill-opacity:1;stroke:none;stroke-width:1.00002146;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       x="-337.71127"
+       y="693.49292"
+       id="text3450"
+       sodipodi:linespacing="82.999998%"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan3452"
+         x="-337.71127"
+         y="693.49292"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:82.99999833%;font-family:Economica;-inkscape-font-specification:Economica;letter-spacing:3.68507504px;fill:#fa6900;fill-opacity:1;stroke-width:1.00002146;stroke-miterlimit:4;stroke-dasharray:none">Bike</tspan><tspan
+         sodipodi:role="line"
+         x="-337.71127"
+         y="752.03094"
+         id="tspan3454"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:82.99999833%;font-family:Economica;-inkscape-font-specification:Economica;letter-spacing:3.68507504px;fill:#fa6900;fill-opacity:1;stroke-width:1.00002146;stroke-miterlimit:4;stroke-dasharray:none">Bike</tspan><tspan
+         sodipodi:role="line"
+         x="-337.71127"
+         y="810.56897"
+         id="tspan3456"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:82.99999833%;font-family:Economica;-inkscape-font-specification:Economica;letter-spacing:10.07330704px;fill:#000000;fill-opacity:1;stroke-width:1.00002146;stroke-miterlimit:4;stroke-dasharray:none">Run</tspan></text>
   </g>
 </svg>

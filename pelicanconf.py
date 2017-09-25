@@ -38,7 +38,7 @@ PLUGINS = [
 ]
 
 DEFAULT_DATE = 'fs'
-STATIC_PATHS = ['images']
+STATIC_PATHS = ['images', 'images/festive500', 'js']
 
 DEFAULT_METADATA = {
     'status': 'draft',
@@ -46,6 +46,7 @@ DEFAULT_METADATA = {
 }
 
 MD_EXTENSIONS = [
+    "markdown.extensions.extra",
     "markdown.extensions.footnotes",
     "markdown.extensions.smarty",
     "markdown.extensions.attr_list",

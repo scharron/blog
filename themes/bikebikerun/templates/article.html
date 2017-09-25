@@ -17,7 +17,7 @@
 {% block title %}{{ article.title }}{%endblock%}
 {% block ogtitle %}{{ article.title }}{%endblock%}
 {% if article.square %}
-{% block img %}{{ article.square }}{%endblock%}
+{% block img %}{% if article.square.startswith("http") %}{{ article.square }}{% else %}{{ SITEURL }}{{ article.square }}{% endif %}{%endblock%}
 {% endif %}
 {% block summary %}{{ article.summary | striptags }}{%endblock%}
 {% block content %}
@@ -48,12 +48,11 @@ var disqus_config = function () {
 })();
 </script>
 <script>
-images = document.getElementsByClassName('article-image')
+images = document.getElementsByTagName('article')[0].querySelectorAll("img")
 for (var i = 0; i < images.length; ++i) {
 	var img = images[i];
-	console.log(img);
 	var link = document.createElement("a");
-	link.href = img.src;
+	link.href = img.src.replace("/mini/", "/");
 	link.target =  "_blank";
 	img.parentNode.insertBefore(link, img);
 	link.appendChild(img);

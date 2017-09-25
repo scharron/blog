@@ -1,0 +1,24 @@
+@font-face {
+  font-family: 'Economica';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Economica'), local('Economica-Regular'), url(/theme/fonts/Economica-normal.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Economica';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Economica Bold'), local('Economica-Bold'), url(/theme/fonts/Economica-bold.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Economica';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Economica Italic'), local('Economica-Italic'), url(/theme/fonts/Economica-italic.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Economica';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Economica Bold Italic'), local('Economica-BoldItalic'), url(/theme/fonts/Economica-italic-bold.ttf) format('truetype');
+}
