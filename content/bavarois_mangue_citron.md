@@ -3,6 +3,8 @@ Tags: Recette, Miam
 Category: Cuisine
 Slug: bavarois-mangue-citron-vert-chocolat-blanc
 Status: published
+date: 2017-01-24 10:20
+gittime: no
 Square: /images/bavarois.jpg
 
 

@@ -3,6 +3,8 @@ Tags: Sport, PUC, Vélo, PB
 Category: Sport
 Slug: paris-barcelone
 Status: published
+date: 2017-06-09 10:20
+gittime: no
 Square: /images/pb/minimap.png
 
 

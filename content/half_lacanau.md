@@ -3,6 +3,8 @@ Tags: Sport, PUC, Triathlon
 Category: Sport
 Slug: half-ironman-lacanau
 Status: published
+date: 2017-05-10 10:20
+gittime: no
 Square: /images/lacanau.jpg
 
 

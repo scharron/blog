@@ -3,6 +3,8 @@ Tags: Sport, PUC, Vélo, Festive500
 Category: Sport
 Slug: festive-500-2016
 Status: published
+date: 2017-01-21 10:20
+gittime: no
 Square: /images/festive500/mini/festive_500.jpg
 
 
